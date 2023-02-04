@@ -1,0 +1,9 @@
+.place__paragraph-area {
+  grid-column: 2;
+  grid-row: 2;
+}
+@media (max-width: 320px) {
+  .place__paragraph-area {
+    max-width: 288px;
+  }
+}
