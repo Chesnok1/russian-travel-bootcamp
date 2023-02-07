@@ -1,5 +1,4 @@
 .lead__image-caption {
-  max-width: 158px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -8,4 +7,9 @@
   /* identical to box height, or 140% */
   letter-spacing: 1.5px;
   text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .lead__image-caption {
+    padding: 5px 0 0 24px;
+  }
 }
