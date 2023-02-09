@@ -1,6 +1,5 @@
 .place__paragraph-area {
-}
-@media (max-width: 320px) {
-  .place__paragraph-area {
-  }
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
 }
