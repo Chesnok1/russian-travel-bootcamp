@@ -10,12 +10,13 @@
     max-width: 1024px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .footer {
     max-width: 768px;
     padding: 0 24px;
   }
 }
+
 @media (max-width: 719px) {
   .footer {
     flex-direction: column;
@@ -28,8 +29,7 @@
   .footer {
     max-width: 320px;
     padding: 0px 118px 0px 16px;
-    flex-direction: column;
-    justify-content: flex-start;
     margin: 64px 0px 24px 0px;
+    gap: 0px;
   }
 }

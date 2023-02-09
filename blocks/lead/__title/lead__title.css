@@ -3,8 +3,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
-  /* or 104% */
+  line-height: 104%;
   text-align: center;
   margin: 0;
   max-width: 720px;
@@ -13,7 +12,12 @@
   .lead__title {
     padding: 0 24px;
     font-size: 12.5vw;
-    line-height: 86%;
+  }
+}
+
+@media (max-width: 662px) {
+  .lead__title {
+    padding: 0;
   }
 }
 
@@ -21,6 +25,5 @@
   .lead__title {
     font-size: 40px;
     line-height: 44px;
-    padding: 0;
   }
 }

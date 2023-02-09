@@ -18,16 +18,10 @@
     max-width: 720px;
   }
 }
-@media (max-width: 767px) {
-  .intro {
-    margin-top: 88px;
-    padding-left: 24px;
-    max-width: 90%;
-  }
-}
+
 @media (max-width: 320px) {
   .intro {
-    margin: 64px auto 0 auto;
+    margin: 64px 0 0 0;
     padding-left: 16px;
     max-width: 288px;
   }
